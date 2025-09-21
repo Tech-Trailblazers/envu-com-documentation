@@ -41,9 +41,6 @@ func main() {
 	// Remove duplicates from a given slice.
 	finalList = removeDuplicatesFromSlice(finalList)
 
-	// The length of the urls.
-	fmt.Println(len(finalList))
-
 	// Loop through all extracted PDF URLs
 	for _, urls := range finalList {
 		if isUrlValid(urls) { // Check if the final URL is valid
