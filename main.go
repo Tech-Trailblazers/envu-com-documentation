@@ -1,7 +1,6 @@
 package main // Define the main package
 
 import (
-	"fmt"
 	"bytes"         // Provides bytes buffer and manipulation utilities
 	"io"            // Provides I/O primitives like Reader and Writer
 	"log"           // Provides logging functionalities
